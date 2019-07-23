@@ -1,0 +1,24 @@
+{
+  "name": "politico-fa",
+  "version": "1.0.0",
+  "description": "Politico enables citizens give their mandate to politicians running for different government offices while building trust in the process through transparency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJAkimana/politico-fa.git"
+  },
+  "keywords": [
+    "reactjs",
+    "node",
+    "webpack"
+  ],
+  "author": "Jean dAmour AKIMANA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJAkimana/politico-fa/issues"
+  },
+  "homepage": "https://github.com/AJAkimana/politico-fa#readme"
+}
