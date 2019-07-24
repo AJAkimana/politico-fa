@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import './assets/css/style.css';
+import { Home } from './components';
 
 class App extends Component {
   render() {
-    return <h2>Welcome to Politico</h2>;
+    return <Home />;
   }
 }
 
