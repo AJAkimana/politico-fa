@@ -7,6 +7,6 @@ export default merge(baseConfig, {
     path: path.join(__dirname, '../build'),
     filename: 'index.bundle.js'
   },
-  mode: 'prod',
+  mode: 'production',
   module: {}
 });
