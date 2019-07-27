@@ -24,14 +24,8 @@ const LandingNav = () => {
           placeholder='Password'
           className='sm-padding'
         />
-        <button className='btn-login btn-save sm-padding' onclick='getAuth()'>
-          Log in
-        </button>
-        <a
-          className='text-white'
-          href='#'
-          onclick="openModal('forgetPswModal','')"
-        >
+        <button className='btn-login btn-save sm-padding'>Log in</button>
+        <a className='text-white' href='#'>
           Forget password
         </a>
       </div>

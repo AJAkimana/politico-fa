@@ -14,7 +14,7 @@ const Register = () => {
         <div className='col-smt-12 col-tab-6 col-lap-4 col-dsk-4 box-login'>
           <h2 className='text-center'>Register</h2>
           <div className='col-smt-12 col-tab-6 col-lap-4 col-dsk-4'>
-            <label for='firstname'>First name</label>
+            <label htmlFor='firstname'>First name</label>
             <input
               type='text'
               name='firstname'
@@ -23,7 +23,7 @@ const Register = () => {
             />
           </div>
           <div className='col-smt-12 col-tab-6 col-lap-4 col-dsk-4'>
-            <label for='lastname'>Last name</label>
+            <label htmlFor='lastname'>Last name</label>
             <input
               type='text'
               name='lastname'
@@ -32,7 +32,7 @@ const Register = () => {
             />
           </div>
           <div className='col-smt-12 col-tab-12 col-lap-4 col-dsk-4'>
-            <label for='middlename'>Middle name</label>
+            <label htmlFor='middlename'>Middle name</label>
             <input
               type='text'
               name='middlename'
@@ -41,11 +41,11 @@ const Register = () => {
             />
           </div>
           <div className='col-smt-12 col-tab-12 col-lap-12 col-dsk-12'>
-            <label for='email'>Email</label>
+            <label htmlFor='email'>Email</label>
             <input type='email' name='email' id='email' placeholder='Email' />
           </div>
           <div className='col-smt-12 col-tab-6 col-lap-6 col-dsk-6'>
-            <label for='password'>Password</label>
+            <label htmlFor='password'>Password</label>
             <input
               type='password'
               name='password'
@@ -54,7 +54,7 @@ const Register = () => {
             />
           </div>
           <div className='col-smt-12 col-tab-6 col-lap-6 col-dsk-6'>
-            <label for='pswconfirm'>Confirm password</label>
+            <label htmlFor='pswconfirm'>Confirm password</label>
             <input
               type='password'
               name='pswconfirm'
@@ -63,7 +63,7 @@ const Register = () => {
             />
           </div>
           <div className='col-smt-12 col-tab-6 col-lap-6 col-dsk-6'>
-            <label for='phonenumber'>Phone number</label>
+            <label htmlFor='phonenumber'>Phone number</label>
             <input
               type='text'
               name='phonenumber'
@@ -72,7 +72,7 @@ const Register = () => {
             />
           </div>
           <div className='col-smt-12 col-tab-6 col-lap-6 col-dsk-6'>
-            <label for='passporturl'>Passport link</label>
+            <label htmlFor='passporturl'>Passport link</label>
             <input
               type='text'
               name='passporturl'
@@ -81,9 +81,7 @@ const Register = () => {
             />
           </div>
           <div className='col-smt-12 gray-area'>
-            <button className='btn-login btn-save' onclick='getAuth()'>
-              Register
-            </button>
+            <button className='btn-login btn-save'>Register</button>
           </div>
         </div>
         <div className='col-smt-12 col-tab-2 col-lap-1 col-dsk-1' />

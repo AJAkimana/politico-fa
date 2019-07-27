@@ -16,4 +16,4 @@ const errorHandler = () => {
     return next(action);
   };
 };
-export default errorHandler;
+export { errorHandler };
