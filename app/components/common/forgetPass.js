@@ -2,12 +2,10 @@ import React from 'react';
 
 const ForgetPass = () => {
   return (
-    <div id='forgetPswModal' class='modal'>
+    <div id='forgetPswModal' className='modal'>
       <div className='modal-content'>
         <div className='modal-header'>
-          <span className='close' onclick="closeModal('forgetPswModal')">
-            &times;
-          </span>
+          <span className='close'>&times;</span>
           <h2>Forget password</h2>
         </div>
         <div className='modal-body'>
