@@ -1,6 +1,7 @@
 export const TEST = 'TEST';
 export const LOGIN_USER = 'LOGIN_USER';
 export const REGISTER_USER = 'REGISTER_USER';
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
 
 export const SAVE_OFFICE = 'SAVE_OFFICE';
 export const GET_OFFICES = 'GET_OFFICES';
