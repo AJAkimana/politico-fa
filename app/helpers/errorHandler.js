@@ -9,14 +9,11 @@ const errorHandler = () => {
 
     if (!action.meta || !action.meta.localError) {
       return next(action).catch(error => {
-        let serverError = error.response
-          ? error.response.data.error
-          : error.message;
-        Notifier.error(serverError);
+        console.log(error.response);
       });
     }
 
     return next(action);
   };
 };
-export { errorHandler };
+export default errorHandler;
