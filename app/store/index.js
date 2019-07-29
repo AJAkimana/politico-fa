@@ -1,13 +1,13 @@
 import { createStore, applyMiddleware } from 'redux';
 import promise from 'redux-promise-middleware';
 import thunk from 'redux-thunk';
-import { errorHandler } from '../helpers';
+import errorHandler from '../helpers/errorHandler';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { reducers } from '../reducers';
+import rootReducer from '../reducers';
 
 const configureStore = () => {
   return createStore(
-    reducers,
+    rootReducer,
     {},
     composeWithDevTools(applyMiddleware(errorHandler, thunk, promise))
   );
