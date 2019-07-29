@@ -1,3 +1,5 @@
 import Home from './Home';
+import UserDashBoard from './userDashboard';
 
-export { Home };
+export * from './routes';
+export { Home, UserDashBoard };
